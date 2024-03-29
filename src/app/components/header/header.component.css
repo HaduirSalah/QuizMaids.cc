@@ -1,0 +1,32 @@
+.custom-search-field {
+  width: 300px; 
+}
+
+.custom-input {
+  border-radius: 20px; 
+  border: 2px solid #ccc; 
+  padding: 5px; 
+  font-size: 16px; 
+  color: #333;
+}
+
+.custom-input::placeholder {
+  color: #999; 
+}
+
+.custom-input:hover  {
+ 
+  border: 2px solid #436ab2;
+
+}
+
+
+mat-toolbar {
+  display: flex;
+  justify-content:space-evenly;
+  align-items:center;
+}
+
+a{
+  text-decoration:none;
+}

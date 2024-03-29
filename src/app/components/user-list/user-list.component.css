@@ -1,0 +1,64 @@
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* to horizontally centered on the page because in this case div contain cards only*/
+  /* margin: 100px 0; */
+  /* OR */
+  height: 400px;
+
+
+}
+
+.user-card-item {
+  width: 140px;
+  height: 180px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+
+.user-card-item:hover {
+  transform: scale(1.1);
+}
+
+
+@keyframes fadeInOut {
+  from {
+
+    transform: translateY(-20px);
+  }
+
+  to {
+
+    transform: translateY(0);
+  }
+}
+
+.fadeInOut {
+  animation: fadeInOut 0.5s ease;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+}
+
+mat-paginator
+{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+mat-card-content{
+  display:flex;
+
+
+}

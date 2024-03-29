@@ -1,0 +1,37 @@
+<div class="user-card">
+  <mat-card class="user-card-item">
+    <div mat-card-avatar>
+      <img [src]="user.avatar" alt="{{ user.first_name }} {{ user.last_name }}" class="avatar">
+      <mat-card-content>
+
+
+
+      </mat-card-content>
+    </div>
+
+  </mat-card>
+
+  <div>
+    <!-- <h1>  No. : {{ user.id }} </h1>
+      <h4>  User Name : {{ user.first_name }} </h4>
+      <h4>  Last Name :  {{ user.last_name }}</h4>
+      <p>Email 
+        : {{ user.email }} </p> -->
+
+    <h1> {{ user.first_name }} {{ user.last_name }}</h1>
+    <h4>{{ user.email }} </h4>
+
+  </div>
+</div>
+
+
+  <div class="example-button-row">
+    <div class="example-flex-container">
+      <div class="example-button-container">
+        <button mat-mini-fab color="primary" aria-label="Example icon button with a previous icon" (click)="goBack()">
+          <mat-icon>keyboard_arrow_left</mat-icon>
+        </button>
+      </div>
+      </div>
+      </div>
+

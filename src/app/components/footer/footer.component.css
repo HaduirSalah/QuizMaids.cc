@@ -1,0 +1,18 @@
+mat-toolbar{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top:60px;
+  
+}
+  
+  .footer p, .footer a {
+   
+    text-decoration: none;
+    padding: 10px 0;
+  }
+  
+  .footer-link {
+    color: #436ab2;
+  }
+

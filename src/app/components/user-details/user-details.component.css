@@ -1,0 +1,54 @@
+.user-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  /* to horizontally centered on the page because in this case div contain cards only*/
+  /* margin: 100px 0; */
+  /* OR */
+  height: 300px;
+}
+
+.user-card-item {
+  width: 140px;
+  height: 140px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+
+
+}
+
+.avatar {
+  width: 140px;
+}
+
+
+.example-label {
+
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+.example-button-row {
+
+  max-width: 600px;
+  float: right;
+
+}
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+
+
+  width: 120px;
+}

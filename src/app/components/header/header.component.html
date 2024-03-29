@@ -1,0 +1,21 @@
+<div class="container">
+  <mat-toolbar class="custom-toolbar">
+    <span>
+        <img class="Maids_cc" src="../assets/Get-a-full-time-maid-or-a-maid-visa.svg" alt="Maids_cc" width="120px">
+    </span>
+    <span class="search-input">
+      <mat-form-field class="custom-search-field" appearance="fill">
+        <input matInput class="custom-input" placeholder="Search by ID" (input)="onSearchTermChange($event)">
+      </mat-form-field>
+      
+    </span>
+    <span class="nav-links">
+      <a mat-button routerLink="/home" routerLinkActive="active">Home</a>
+      <a mat-button routerLink="/about" routerLinkActive="active">About</a>
+      <a mat-button routerLink="/contact" routerLinkActive="active">Contact</a>
+    </span>
+  </mat-toolbar>
+</div>
+
+  
+  
